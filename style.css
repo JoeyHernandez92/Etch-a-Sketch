@@ -1,12 +1,15 @@
 .grid-cell {
-    width: 50px;  /* Adjust the size as needed */
-    height: 50px; /* Adjust the size as needed */
+    width: calc(100% / 16);  /* Adjust the size as needed */
+    height: calc(100% / 16); /* Adjust the size as needed */
+    box-sizing: border-box;
     background-color: lightblue; /* Adjust the color as needed */
     border: 1px solid black; /* Add border for visibility */
 }
 
 #grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 50px); /* Adjust the size as needed */
-    gap: 5px; /* Adjust the gap between cells as needed */
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    border: 1px, black;
 }

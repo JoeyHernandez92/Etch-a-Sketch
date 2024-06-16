@@ -8,4 +8,4 @@ function makeRows(rows, cols){
     }
 }
 
-makeRows(8,8);
+makeRows(16,16);
