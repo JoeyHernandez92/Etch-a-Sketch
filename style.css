@@ -15,7 +15,7 @@ html, body {
 }
 
 .grid-cell:hover {
-    background-color: darkblue;
+    background-color: yellow;
 }
 
 #grid-container {
